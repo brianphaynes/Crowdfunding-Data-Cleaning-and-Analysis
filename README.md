@@ -1,1 +1,4 @@
-# Crowdfunding_ETL
+# Crowdfunding Data Cleaning and Analysis
+This project is to be an end-to-end data pipeline for a crowdfunding analytics system. It starts by importing and cleaning two main datasets: one for crowdfunding campaigns and another for contacts. These cleaned datasets are saved as CSV files. The SQL code then defines the database schema that these CSV files can populate. The schema includes tables for campaign details (Campaign), contact information (Contacts), and campaign categories and subcategories (Category and Subcategory).
+
+The cleaned data can be imported into these SQL tables for further querying or analysis. The database schema also includes foreign key constraints to maintain data integrity between these tables. In summary, the project cleans raw crowdfunding and contact data, prepares it for storage, and defines a relational database structure for subsequent analytics or operations.
